@@ -1,0 +1,70 @@
+_____________________
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: Using the existing distribution file: zipf-1.150000.distUsing the existing distribution file: zipf-1.150000.dist
+zipf-1.150000.dist
+
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+_____________________
+50	0.188351
+64	0.172126
+77	0.163364
+108	0.149517
+138	0.140804
+201	0.129134
+259	0.122214
+388	0.112016
+510	0.105701
+767	0.097639
+1010	0.093386
+1526	0.089398
+2028	0.088732
+3053	0.088732
+4078	0.088732
+6128	0.088732
+_____________________
+starting measure
+stopping trace
+mem_malloced: 1074790400
+cache size base: 32
+cache size base: 48
+cache size base: 64
+cache size base: 96
+cache size base: 128
+cache size base: 192
+cache size base: 256
+cache size base: 384
+cache size base: 512
+cache size base: 768
+cache size base: 1024
+cache size base: 1536
+cache size base: 2048
+cache size base: 3072
+cache size base: 4096
+cache size base: 6144
+LP infeasible	 exiting!
+---------------------
+
+---------------------
+

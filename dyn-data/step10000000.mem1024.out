@@ -1,0 +1,59 @@
+#type       avg     std     min     5th    10th    90th    95th    99th
+read       34.4    90.1    21.1    28.1    28.6    39.4    40.5    49.4
+update     46.8   135.2    21.1    35.4    37.9    53.9    54.5    60.0
+op_q        1.0     0.0     1.0     1.0     1.0     1.1     1.1     1.1
+
+Total QPS = 131270.5 (93792164 / 714.5s)
+
+Misses = 13792168 (17.2%)
+Skipped TXs = 0 (0.0%)
+
+RX 17026102144 bytes :   22.7 MB/s
+TX 8448037356 bytes :   11.3 MB/s
+_____________________
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+_____________________
+_____________________
+starting measure
+stopping trace
+mem_malloced: 434110464
+cache size base: 32
+cache size base: 48
+cache size base: 64
+cache size base: 96
+cache size base: 128
+cache size base: 192
+cache size base: 256
+cache size base: 384
+cache size base: 512
+cache size base: 768
+cache size base: 1024
+Objective value: 0.751023
+latency bound: 1.303825
+L1 size is: 51
+starting slab monitoring
+starting slab deallocate
+stoping slab monitoring

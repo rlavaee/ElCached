@@ -1,0 +1,75 @@
+_____________________
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+_____________________
+_____________________
+starting measure
+stopping trace
+mem_malloced: 1076887552
+cache size base: 32
+cache size base: 48
+cache size base: 64
+cache size base: 96
+cache size base: 128
+cache size base: 192
+cache size base: 256
+cache size base: 384
+cache size base: 512
+cache size base: 768
+cache size base: 1024
+cache size base: 1536
+cache size base: 2048
+cache size base: 3072
+cache size base: 4096
+cache size base: 6144
+cache size base: 8192
+cache size base: 12288
+50	0.188342
+64	0.172163
+77	0.163465
+108	0.149579
+138	0.140840
+201	0.129664
+259	0.122221
+388	0.112389
+510	0.105852
+766	0.097209
+1010	0.091558
+1525	0.083733
+2028	0.078678
+3054	0.072884
+4081	0.070023
+6127	0.068455
+8176	0.068455
+12274	0.068455
+LP infeasible	 exiting!
+---------------------
+
+---------------------
+

@@ -1,0 +1,79 @@
+_____________________
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Connection.cc(293): Unexpected EOF from server.
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+_____________________
+50	0.188352
+64	0.172182
+77	0.163478
+108	0.149616
+138	0.140870
+202	0.129180
+258	0.122295
+389	0.112209
+510	0.105744
+766	0.097133
+1009	0.091508
+1524	0.083669
+2026	0.078461
+3053	0.071397
+4075	0.067109
+6124	0.062862
+8172	0.061541
+12268	0.061488
+16366	0.061488
+24557	0.061488
+_____________________
+starting measure
+stopping trace
+mem_malloced: 1077936128
+cache size base: 32
+cache size base: 48
+cache size base: 64
+cache size base: 96
+cache size base: 128
+cache size base: 192
+cache size base: 256
+cache size base: 384
+cache size base: 512
+cache size base: 768
+cache size base: 1024
+cache size base: 1536
+cache size base: 2048
+cache size base: 3072
+cache size base: 4096
+cache size base: 6144
+cache size base: 8192
+cache size base: 12288
+cache size base: 16384
+cache size base: 24576
+LP infeasible	 exiting!
+---------------------
+
+---------------------
+

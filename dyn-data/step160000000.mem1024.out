@@ -1,0 +1,74 @@
+_____________________
+Using the existing distribution file: Using the existing distribution file: zipf-1.150000.dist
+zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+4000000000
+Finished writing the distribution data
+scale is: Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+total record: 4000000000_max: 4e+09
+Connection.cc(293): Unexpected EOF from server.
+Connection.cc(293): Unexpected EOF from server.
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+_____________________
+50	0.188442
+64	0.172240
+77	0.163495
+108	0.149643
+138	0.140905
+201	0.129243
+260	0.122264
+388	0.112104
+511	0.105758
+766	0.097093
+1009	0.091533
+1526	0.083638
+2026	0.078466
+3051	0.071426
+4076	0.068141
+6126	0.067412
+8176	0.067412
+12275	0.067412
+_____________________
+starting measure
+stopping trace
+mem_malloced: 1074790400
+cache size base: 32
+cache size base: 48
+cache size base: 64
+cache size base: 96
+cache size base: 128
+cache size base: 192
+cache size base: 256
+cache size base: 384
+cache size base: 512
+cache size base: 768
+cache size base: 1024
+cache size base: 1536
+cache size base: 2048
+cache size base: 3072
+cache size base: 4096
+cache size base: 6144
+cache size base: 8192
+cache size base: 12288
+LP infeasible	 exiting!
+---------------------
+
+---------------------
+

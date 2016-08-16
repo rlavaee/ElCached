@@ -1,0 +1,728 @@
+got new connection
+socket address: 0x100007f
+, socket port: 0x1ac5
+reading 0x25eab30 
+mrc size is : 18
+#type       avg     std     min     5th    10th    90th    95th    99th
+read       35.3    20.3    21.1    28.5    29.1    39.6    40.6    48.0
+update     49.5    21.7    23.2    37.2    41.4    55.5    58.2    61.9
+op_q        1.0     0.0     1.0     1.0     1.0     1.1     1.1     1.1
+
+Total QPS = 115594.3 (864892177 / 7482.1s)
+
+Misses = 64892183 (8.1%)
+Skipped TXs = 0 (0.0%)
+
+RX 189630997411 bytes :   24.2 MB/s
+TX 65348906122 bytes :    8.3 MB/s
+size.L1.0: 1627.164409
+size.L2i.0: 6128.880748
+mr.L1.0: 0.087073
+mr.L2.0: 0.078320
+lat.0: 0.876245
+cost.0: 18.879698
+_____________________
+address: 0x25ea930	0
+parent process
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+clear address: 0x25ea930	0
+50	0.188365
+64	0.172249
+77	0.163601
+107	0.149981
+138	0.141114
+201	0.129695
+260	0.122802
+388	0.11303
+511	0.10702
+768	0.0990507
+1010	0.0941869
+1526	0.0878171
+2026	0.0841395
+3052	0.0801838
+4078	0.0786199
+6129	0.0783202
+8175	0.0783202
+12272	0.0783202
+mrc_computed: 1	1
+generating and solving lp
+0	created the model
+0	added MR constraints
+0	objective function set	solving:
+Objective value: 18.879698
+latency bound: 0.876245
+mutilate is done
+_____________________
+STAT 1:chunk_size 96
+STAT 1:chunks_per_page 10922
+STAT 1:total_pages 43
+STAT 1:total_chunks 469646
+STAT 1:used_chunks 469646
+STAT 1:free_chunks 0
+STAT 1:free_chunks_end 0
+STAT 1:mem_requested 43444025
+STAT 1:get_hits 28197689
+STAT 1:cmd_set 4539966
+STAT 1:delete_hits 0
+STAT 1:incr_hits 0
+STAT 1:decr_hits 0
+STAT 1:cas_hits 0
+STAT 1:cas_badval 0
+STAT 1:touch_hits 0
+STAT 2:chunk_size 120
+STAT 2:chunks_per_page 8738
+STAT 2:total_pages 182
+STAT 2:total_chunks 1590316
+STAT 2:used_chunks 1590316
+STAT 2:free_chunks 0
+STAT 2:free_chunks_end 0
+STAT 2:mem_requested 170040703
+STAT 2:get_hits 164177889
+STAT 2:cmd_set 15954470
+STAT 2:delete_hits 0
+STAT 2:incr_hits 0
+STAT 2:decr_hits 0
+STAT 2:cas_hits 0
+STAT 2:cas_badval 0
+STAT 2:touch_hits 0
+STAT 3:chunk_size 152
+STAT 3:chunks_per_page 6898
+STAT 3:total_pages 87
+STAT 3:total_chunks 600126
+STAT 3:used_chunks 600126
+STAT 3:free_chunks 0
+STAT 3:free_chunks_end 0
+STAT 3:mem_requested 80125505
+STAT 3:get_hits 51851771
+STAT 3:cmd_set 5943903
+STAT 3:delete_hits 0
+STAT 3:incr_hits 0
+STAT 3:decr_hits 0
+STAT 3:cas_hits 0
+STAT 3:cas_badval 0
+STAT 3:touch_hits 0
+STAT 4:chunk_size 192
+STAT 4:chunks_per_page 5461
+STAT 4:total_pages 72
+STAT 4:total_chunks 393192
+STAT 4:used_chunks 393192
+STAT 4:free_chunks 0
+STAT 4:free_chunks_end 0
+STAT 4:mem_requested 67379139
+STAT 4:get_hits 40120004
+STAT 4:cmd_set 3890112
+STAT 4:delete_hits 0
+STAT 4:incr_hits 0
+STAT 4:decr_hits 0
+STAT 4:cas_hits 0
+STAT 4:cas_badval 0
+STAT 4:touch_hits 0
+STAT 5:chunk_size 240
+STAT 5:chunks_per_page 4369
+STAT 5:total_pages 81
+STAT 5:total_chunks 353889
+STAT 5:used_chunks 353889
+STAT 5:free_chunks 0
+STAT 5:free_chunks_end 0
+STAT 5:mem_requested 76329204
+STAT 5:get_hits 64522718
+STAT 5:cmd_set 3514452
+STAT 5:delete_hits 0
+STAT 5:incr_hits 0
+STAT 5:decr_hits 0
+STAT 5:cas_hits 0
+STAT 5:cas_badval 0
+STAT 5:touch_hits 0
+STAT 6:chunk_size 304
+STAT 6:chunks_per_page 3449
+STAT 6:total_pages 104
+STAT 6:total_chunks 358696
+STAT 6:used_chunks 358696
+STAT 6:free_chunks 0
+STAT 6:free_chunks_end 0
+STAT 6:mem_requested 97137011
+STAT 6:get_hits 24757761
+STAT 6:cmd_set 3572354
+STAT 6:delete_hits 0
+STAT 6:incr_hits 0
+STAT 6:decr_hits 0
+STAT 6:cas_hits 0
+STAT 6:cas_badval 0
+STAT 6:touch_hits 0
+STAT 7:chunk_size 384
+STAT 7:chunks_per_page 2730
+STAT 7:total_pages 116
+STAT 7:total_chunks 316680
+STAT 7:used_chunks 316680
+STAT 7:free_chunks 0
+STAT 7:free_chunks_end 0
+STAT 7:mem_requested 108300941
+STAT 7:get_hits 135231026
+STAT 7:cmd_set 3155922
+STAT 7:delete_hits 0
+STAT 7:incr_hits 0
+STAT 7:decr_hits 0
+STAT 7:cas_hits 0
+STAT 7:cas_badval 0
+STAT 7:touch_hits 0
+STAT 8:chunk_size 480
+STAT 8:chunks_per_page 2184
+STAT 8:total_pages 117
+STAT 8:total_chunks 255528
+STAT 8:used_chunks 255528
+STAT 8:free_chunks 0
+STAT 8:free_chunks_end 0
+STAT 8:mem_requested 109705771
+STAT 8:get_hits 17431113
+STAT 8:cmd_set 2579863
+STAT 8:delete_hits 0
+STAT 8:incr_hits 0
+STAT 8:decr_hits 0
+STAT 8:cas_hits 0
+STAT 8:cas_badval 0
+STAT 8:touch_hits 0
+STAT 9:chunk_size 600
+STAT 9:chunks_per_page 1747
+STAT 9:total_pages 122
+STAT 9:total_chunks 213134
+STAT 9:used_chunks 213134
+STAT 9:free_chunks 0
+STAT 9:free_chunks_end 0
+STAT 9:mem_requested 114278162
+STAT 9:get_hits 14068815
+STAT 9:cmd_set 2110527
+STAT 9:delete_hits 0
+STAT 9:incr_hits 0
+STAT 9:decr_hits 0
+STAT 9:cas_hits 0
+STAT 9:cas_badval 0
+STAT 9:touch_hits 0
+STAT 10:chunk_size 752
+STAT 10:chunks_per_page 1394
+STAT 10:total_pages 119
+STAT 10:total_chunks 165886
+STAT 10:used_chunks 165886
+STAT 10:free_chunks 0
+STAT 10:free_chunks_end 0
+STAT 10:mem_requested 111138109
+STAT 10:get_hits 13869414
+STAT 10:cmd_set 1663060
+STAT 10:delete_hits 0
+STAT 10:incr_hits 0
+STAT 10:decr_hits 0
+STAT 10:cas_hits 0
+STAT 10:cas_badval 0
+STAT 10:touch_hits 0
+STAT 11:chunk_size 944
+STAT 11:chunks_per_page 1110
+STAT 11:total_pages 112
+STAT 11:total_chunks 124320
+STAT 11:used_chunks 124320
+STAT 11:free_chunks 0
+STAT 11:free_chunks_end 0
+STAT 11:mem_requested 104377705
+STAT 11:get_hits 25091292
+STAT 11:cmd_set 1241856
+STAT 11:delete_hits 0
+STAT 11:incr_hits 0
+STAT 11:decr_hits 0
+STAT 11:cas_hits 0
+STAT 11:cas_badval 0
+STAT 11:touch_hits 0
+STAT 12:chunk_size 1184
+STAT 12:chunks_per_page 885
+STAT 12:total_pages 99
+STAT 12:total_chunks 87615
+STAT 12:used_chunks 87615
+STAT 12:free_chunks 0
+STAT 12:free_chunks_end 0
+STAT 12:mem_requested 92215225
+STAT 12:get_hits 3520273
+STAT 12:cmd_set 873246
+STAT 12:delete_hits 0
+STAT 12:incr_hits 0
+STAT 12:decr_hits 0
+STAT 12:cas_hits 0
+STAT 12:cas_badval 0
+STAT 12:touch_hits 0
+STAT 13:chunk_size 1480
+STAT 13:chunks_per_page 708
+STAT 13:total_pages 84
+STAT 13:total_chunks 59472
+STAT 13:used_chunks 59472
+STAT 13:free_chunks 0
+STAT 13:free_chunks_end 0
+STAT 13:mem_requested 78299763
+STAT 13:get_hits 2449562
+STAT 13:cmd_set 587481
+STAT 13:delete_hits 0
+STAT 13:incr_hits 0
+STAT 13:decr_hits 0
+STAT 13:cas_hits 0
+STAT 13:cas_badval 0
+STAT 13:touch_hits 0
+STAT 14:chunk_size 1856
+STAT 14:chunks_per_page 564
+STAT 14:total_pages 69
+STAT 14:total_chunks 38916
+STAT 14:used_chunks 38916
+STAT 14:free_chunks 0
+STAT 14:free_chunks_end 0
+STAT 14:mem_requested 64086306
+STAT 14:get_hits 3240797
+STAT 14:cmd_set 389624
+STAT 14:delete_hits 0
+STAT 14:incr_hits 0
+STAT 14:decr_hits 0
+STAT 14:cas_hits 0
+STAT 14:cas_badval 0
+STAT 14:touch_hits 0
+STAT 15:chunk_size 2320
+STAT 15:chunks_per_page 451
+STAT 15:total_pages 54
+STAT 15:total_chunks 24354
+STAT 15:used_chunks 24354
+STAT 15:free_chunks 0
+STAT 15:free_chunks_end 0
+STAT 15:mem_requested 50212653
+STAT 15:get_hits 1105979
+STAT 15:cmd_set 241993
+STAT 15:delete_hits 0
+STAT 15:incr_hits 0
+STAT 15:decr_hits 0
+STAT 15:cas_hits 0
+STAT 15:cas_badval 0
+STAT 15:touch_hits 0
+STAT 16:chunk_size 2904
+STAT 16:chunks_per_page 361
+STAT 16:total_pages 43
+STAT 16:total_chunks 15523
+STAT 16:used_chunks 15523
+STAT 16:free_chunks 0
+STAT 16:free_chunks_end 0
+STAT 16:mem_requested 40020524
+STAT 16:get_hits 977253
+STAT 16:cmd_set 149401
+STAT 16:delete_hits 0
+STAT 16:incr_hits 0
+STAT 16:decr_hits 0
+STAT 16:cas_hits 0
+STAT 16:cas_badval 0
+STAT 16:touch_hits 0
+STAT 17:chunk_size 3632
+STAT 17:chunks_per_page 288
+STAT 17:total_pages 32
+STAT 17:total_chunks 9216
+STAT 17:used_chunks 9216
+STAT 17:free_chunks 0
+STAT 17:free_chunks_end 0
+STAT 17:mem_requested 29700997
+STAT 17:get_hits 466053
+STAT 17:cmd_set 89187
+STAT 17:delete_hits 0
+STAT 17:incr_hits 0
+STAT 17:decr_hits 0
+STAT 17:cas_hits 0
+STAT 17:cas_badval 0
+STAT 17:touch_hits 0
+STAT 18:chunk_size 4544
+STAT 18:chunks_per_page 230
+STAT 18:total_pages 24
+STAT 18:total_chunks 5520
+STAT 18:used_chunks 5520
+STAT 18:free_chunks 0
+STAT 18:free_chunks_end 0
+STAT 18:mem_requested 22246656
+STAT 18:get_hits 626734
+STAT 18:cmd_set 52224
+STAT 18:delete_hits 0
+STAT 18:incr_hits 0
+STAT 18:decr_hits 0
+STAT 18:cas_hits 0
+STAT 18:cas_badval 0
+STAT 18:touch_hits 0
+STAT 19:chunk_size 5680
+STAT 19:chunks_per_page 184
+STAT 19:total_pages 17
+STAT 19:total_chunks 3128
+STAT 19:used_chunks 3128
+STAT 19:free_chunks 0
+STAT 19:free_chunks_end 0
+STAT 19:mem_requested 15734657
+STAT 19:get_hits 96097
+STAT 19:cmd_set 29939
+STAT 19:delete_hits 0
+STAT 19:incr_hits 0
+STAT 19:decr_hits 0
+STAT 19:cas_hits 0
+STAT 19:cas_badval 0
+STAT 19:touch_hits 0
+STAT 20:chunk_size 7104
+STAT 20:chunks_per_page 147
+STAT 20:total_pages 13
+STAT 20:total_chunks 1911
+STAT 20:used_chunks 1911
+STAT 20:free_chunks 0
+STAT 20:free_chunks_end 0
+STAT 20:mem_requested 12035266
+STAT 20:get_hits 39194
+STAT 20:cmd_set 16670
+STAT 20:delete_hits 0
+STAT 20:incr_hits 0
+STAT 20:decr_hits 0
+STAT 20:cas_hits 0
+STAT 20:cas_badval 0
+STAT 20:touch_hits 0
+STAT 21:chunk_size 8880
+STAT 21:chunks_per_page 118
+STAT 21:total_pages 8
+STAT 21:total_chunks 944
+STAT 21:used_chunks 944
+STAT 21:free_chunks 0
+STAT 21:free_chunks_end 0
+STAT 21:mem_requested 7438704
+STAT 21:get_hits 17251
+STAT 21:cmd_set 9390
+STAT 21:delete_hits 0
+STAT 21:incr_hits 0
+STAT 21:decr_hits 0
+STAT 21:cas_hits 0
+STAT 21:cas_badval 0
+STAT 21:touch_hits 0
+STAT 22:chunk_size 11104
+STAT 22:chunks_per_page 94
+STAT 22:total_pages 7
+STAT 22:total_chunks 658
+STAT 22:used_chunks 658
+STAT 22:free_chunks 0
+STAT 22:free_chunks_end 0
+STAT 22:mem_requested 6456617
+STAT 22:get_hits 9104
+STAT 22:cmd_set 5146
+STAT 22:delete_hits 0
+STAT 22:incr_hits 0
+STAT 22:decr_hits 0
+STAT 22:cas_hits 0
+STAT 22:cas_badval 0
+STAT 22:touch_hits 0
+STAT 23:chunk_size 13880
+STAT 23:chunks_per_page 75
+STAT 23:total_pages 5
+STAT 23:total_chunks 375
+STAT 23:used_chunks 375
+STAT 23:free_chunks 0
+STAT 23:free_chunks_end 0
+STAT 23:mem_requested 4613657
+STAT 23:get_hits 5835
+STAT 23:cmd_set 2758
+STAT 23:delete_hits 0
+STAT 23:incr_hits 0
+STAT 23:decr_hits 0
+STAT 23:cas_hits 0
+STAT 23:cas_badval 0
+STAT 23:touch_hits 0
+STAT 24:chunk_size 17352
+STAT 24:chunks_per_page 60
+STAT 24:total_pages 3
+STAT 24:total_chunks 180
+STAT 24:used_chunks 180
+STAT 24:free_chunks 0
+STAT 24:free_chunks_end 0
+STAT 24:mem_requested 2781964
+STAT 24:get_hits 2525
+STAT 24:cmd_set 1542
+STAT 24:delete_hits 0
+STAT 24:incr_hits 0
+STAT 24:decr_hits 0
+STAT 24:cas_hits 0
+STAT 24:cas_badval 0
+STAT 24:touch_hits 0
+STAT 25:chunk_size 21696
+STAT 25:chunks_per_page 48
+STAT 25:total_pages 2
+STAT 25:total_chunks 96
+STAT 25:used_chunks 96
+STAT 25:free_chunks 0
+STAT 25:free_chunks_end 0
+STAT 25:mem_requested 1845684
+STAT 25:get_hits 1177
+STAT 25:cmd_set 855
+STAT 25:delete_hits 0
+STAT 25:incr_hits 0
+STAT 25:decr_hits 0
+STAT 25:cas_hits 0
+STAT 25:cas_badval 0
+STAT 25:touch_hits 0
+STAT 26:chunk_size 27120
+STAT 26:chunks_per_page 38
+STAT 26:total_pages 2
+STAT 26:total_chunks 76
+STAT 26:used_chunks 76
+STAT 26:free_chunks 0
+STAT 26:free_chunks_end 0
+STAT 26:mem_requested 1839174
+STAT 26:get_hits 420
+STAT 26:cmd_set 501
+STAT 26:delete_hits 0
+STAT 26:incr_hits 0
+STAT 26:decr_hits 0
+STAT 26:cas_hits 0
+STAT 26:cas_badval 0
+STAT 26:touch_hits 0
+STAT 27:chunk_size 33904
+STAT 27:chunks_per_page 30
+STAT 27:total_pages 2
+STAT 27:total_chunks 60
+STAT 27:used_chunks 60
+STAT 27:free_chunks 0
+STAT 27:free_chunks_end 0
+STAT 27:mem_requested 1783449
+STAT 27:get_hits 435
+STAT 27:cmd_set 239
+STAT 27:delete_hits 0
+STAT 27:incr_hits 0
+STAT 27:decr_hits 0
+STAT 27:cas_hits 0
+STAT 27:cas_badval 0
+STAT 27:touch_hits 0
+STAT 28:chunk_size 42384
+STAT 28:chunks_per_page 24
+STAT 28:total_pages 2
+STAT 28:total_chunks 48
+STAT 28:used_chunks 48
+STAT 28:free_chunks 0
+STAT 28:free_chunks_end 0
+STAT 28:mem_requested 1813843
+STAT 28:get_hits 465
+STAT 28:cmd_set 133
+STAT 28:delete_hits 0
+STAT 28:incr_hits 0
+STAT 28:decr_hits 0
+STAT 28:cas_hits 0
+STAT 28:cas_badval 0
+STAT 28:touch_hits 0
+STAT 29:chunk_size 52984
+STAT 29:chunks_per_page 19
+STAT 29:total_pages 2
+STAT 29:total_chunks 38
+STAT 29:used_chunks 38
+STAT 29:free_chunks 0
+STAT 29:free_chunks_end 0
+STAT 29:mem_requested 1756944
+STAT 29:get_hits 211
+STAT 29:cmd_set 67
+STAT 29:delete_hits 0
+STAT 29:incr_hits 0
+STAT 29:decr_hits 0
+STAT 29:cas_hits 0
+STAT 29:cas_badval 0
+STAT 29:touch_hits 0
+STAT 30:chunk_size 66232
+STAT 30:chunks_per_page 15
+STAT 30:total_pages 1
+STAT 30:total_chunks 15
+STAT 30:used_chunks 15
+STAT 30:free_chunks 0
+STAT 30:free_chunks_end 0
+STAT 30:mem_requested 890727
+STAT 30:get_hits 182
+STAT 30:cmd_set 41
+STAT 30:delete_hits 0
+STAT 30:incr_hits 0
+STAT 30:decr_hits 0
+STAT 30:cas_hits 0
+STAT 30:cas_badval 0
+STAT 30:touch_hits 0
+STAT 31:chunk_size 82792
+STAT 31:chunks_per_page 12
+STAT 31:total_pages 1
+STAT 31:total_chunks 12
+STAT 31:used_chunks 12
+STAT 31:free_chunks 0
+STAT 31:free_chunks_end 0
+STAT 31:mem_requested 846598
+STAT 31:get_hits 44
+STAT 31:cmd_set 23
+STAT 31:delete_hits 0
+STAT 31:incr_hits 0
+STAT 31:decr_hits 0
+STAT 31:cas_hits 0
+STAT 31:cas_badval 0
+STAT 31:touch_hits 0
+STAT 32:chunk_size 103496
+STAT 32:chunks_per_page 10
+STAT 32:total_pages 1
+STAT 32:total_chunks 10
+STAT 32:used_chunks 10
+STAT 32:free_chunks 0
+STAT 32:free_chunks_end 0
+STAT 32:mem_requested 939101
+STAT 32:get_hits 14
+STAT 32:cmd_set 8
+STAT 32:delete_hits 0
+STAT 32:incr_hits 0
+STAT 32:decr_hits 0
+STAT 32:cas_hits 0
+STAT 32:cas_badval 0
+STAT 32:touch_hits 0
+STAT 33:chunk_size 129376
+STAT 33:chunks_per_page 8
+STAT 33:total_pages 1
+STAT 33:total_chunks 8
+STAT 33:used_chunks 8
+STAT 33:free_chunks 0
+STAT 33:free_chunks_end 0
+STAT 33:mem_requested 952403
+STAT 33:get_hits 15
+STAT 33:cmd_set 5
+STAT 33:delete_hits 0
+STAT 33:incr_hits 0
+STAT 33:decr_hits 0
+STAT 33:cas_hits 0
+STAT 33:cas_badval 0
+STAT 33:touch_hits 0
+STAT 34:chunk_size 161720
+STAT 34:chunks_per_page 6
+STAT 34:total_pages 1
+STAT 34:total_chunks 6
+STAT 34:used_chunks 1
+STAT 34:free_chunks 5
+STAT 34:free_chunks_end 0
+STAT 34:mem_requested 145896
+STAT 34:get_hits 0
+STAT 34:cmd_set 1
+STAT 34:delete_hits 0
+STAT 34:incr_hits 0
+STAT 34:decr_hits 0
+STAT 34:cas_hits 0
+STAT 34:cas_badval 0
+STAT 34:touch_hits 0
+STAT 35:chunk_size 202152
+STAT 35:chunks_per_page 5
+STAT 35:total_pages 1
+STAT 35:total_chunks 5
+STAT 35:used_chunks 3
+STAT 35:free_chunks 2
+STAT 35:free_chunks_end 0
+STAT 35:mem_requested 501058
+STAT 35:get_hits 0
+STAT 35:cmd_set 3
+STAT 35:delete_hits 0
+STAT 35:incr_hits 0
+STAT 35:decr_hits 0
+STAT 35:cas_hits 0
+STAT 35:cas_badval 0
+STAT 35:touch_hits 0
+STAT 36:chunk_size 252696
+STAT 36:chunks_per_page 4
+STAT 36:total_pages 1
+STAT 36:total_chunks 4
+STAT 36:used_chunks 2
+STAT 36:free_chunks 2
+STAT 36:free_chunks_end 0
+STAT 36:mem_requested 483032
+STAT 36:get_hits 0
+STAT 36:cmd_set 1
+STAT 36:delete_hits 0
+STAT 36:incr_hits 0
+STAT 36:decr_hits 0
+STAT 36:cas_hits 0
+STAT 36:cas_badval 0
+STAT 36:touch_hits 0
+STAT 37:chunk_size 315872
+STAT 37:chunks_per_page 3
+STAT 37:total_pages 1
+STAT 37:total_chunks 3
+STAT 37:used_chunks 1
+STAT 37:free_chunks 2
+STAT 37:free_chunks_end 0
+STAT 37:mem_requested 270460
+STAT 37:get_hits 7
+STAT 37:cmd_set 1
+STAT 37:delete_hits 0
+STAT 37:incr_hits 0
+STAT 37:decr_hits 0
+STAT 37:cas_hits 0
+STAT 37:cas_badval 0
+STAT 37:touch_hits 0
+STAT active_slabs 37
+STAT total_malloced 1708557216
+END
+********************
+STAT pid 30103
+STAT uptime 7547
+STAT time 1471021540
+STAT version 1.4.25
+STAT libevent 2.0.21-stable
+STAT pointer_size 64
+STAT rusage_user 4472.152000
+STAT rusage_system 13133.336000
+STAT curr_connections 10
+STAT total_connections 2
+STAT connection_structures 15
+STAT reserved_fds 20
+STAT cmd_get 642496079
+STAT cmd_set 50616964
+STAT cmd_flush 0
+STAT cmd_touch 0
+STAT get_hits 591879119
+STAT get_misses 50616960
+STAT delete_misses 0
+STAT delete_hits 0
+STAT incr_misses 0
+STAT incr_hits 0
+STAT decr_misses 0
+STAT decr_hits 0
+STAT cas_misses 0
+STAT cas_hits 0
+STAT cas_badval 0
+STAT touch_hits 0
+STAT touch_misses 0
+STAT auth_cmds 0
+STAT auth_errors 0
+STAT bytes_read 52094272997
+STAT bytes_written 152566503181
+STAT limit_maxbytes 1073741824
+STAT accepting_conns 1
+STAT listen_disabled_num 0
+STAT time_in_listen_disabled_us 0
+STAT threads 4
+STAT conn_yields 0
+STAT hash_power_level 22
+STAT hash_bytes 33554432
+STAT hash_is_expanding 0
+STAT malloc_fails 0
+STAT bytes 1522167633
+STAT curr_items 5089595
+STAT total_items 50616964
+STAT expired_unfetched 0
+STAT evicted_unfetched 42767583
+STAT evictions 48713255
+STAT reclaimed 0
+STAT crawler_reclaimed 0
+STAT crawler_items_checked 0
+STAT lrutail_reflocked 0
+END

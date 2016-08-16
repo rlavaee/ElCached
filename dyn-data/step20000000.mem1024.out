@@ -1,0 +1,64 @@
+_____________________
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Finished reading in the distribution
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: Generating and stroing the rest of zipfian: range: 4000000000
+4000000000
+Finished writing the distribution data
+scale is: Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+7.01281range is: total record: 4000000000_max: 4e+09
+4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+_____________________
+50	0.188213
+64	0.172067
+77	0.163351
+107	0.149673
+138	0.140709
+198	0.129697
+259	0.122111
+385	0.112296
+511	0.105639
+765	0.099487
+1017	0.098803
+1533	0.098803
+2039	0.098803
+_____________________
+starting measure
+stopping trace
+mem_malloced: 765460480
+cache size base: 32
+cache size base: 48
+cache size base: 64
+cache size base: 96
+cache size base: 128
+cache size base: 192
+cache size base: 256
+cache size base: 384
+cache size base: 512
+cache size base: 768
+cache size base: 1024
+cache size base: 1536
+cache size base: 2048
+LP infeasible	 exiting!
+---------------------
+
+---------------------
+

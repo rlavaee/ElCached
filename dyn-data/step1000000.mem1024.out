@@ -1,0 +1,63 @@
+#type       avg     std     min     5th    10th    90th    95th    99th
+read       35.7    28.9    23.2    28.6    29.1    40.4    40.9    51.3
+update     48.9    41.1    23.2    37.3    39.2    54.6    57.2    60.9
+op_q        1.0     0.0     1.0     1.0     1.0     1.1     1.1     1.1
+
+Total QPS = 119880.7 (9463883 / 78.9s)
+
+Misses = 1463887 (18.3%)
+Skipped TXs = 0 (0.0%)
+
+RX 1716178035 bytes :   20.7 MB/s
+TX  866511288 bytes :   10.5 MB/s
+_____________________
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.distUsing the existing distribution file: zipf-1.150000.dist
+
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+_____________________
+47	0.197961
+58	0.185569
+72	0.179071
+95	0.175682
+123	0.175551
+187	0.175551
+_____________________
+starting measure
+stopping trace
+mem_malloced: 80740352
+cache size base: 32
+cache size base: 48
+cache size base: 64
+cache size base: 96
+cache size base: 128
+cache size base: 192
+0	created the model
+0	added MR constraints
+0	objective function set	solving:
+Objective value: 0.484028
+latency bound: 1.856334
+L1 size is: 47
+starting slab monitoring
+starting slab deallocate
+stoping slab monitoring

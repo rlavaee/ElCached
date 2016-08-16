@@ -1,0 +1,76 @@
+_____________________
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+Connection.cc(293): Unexpected EOF from server.
+Connection.cc(290): BEV_EVENT_ERROR: Connection reset by peer
+_____________________
+_____________________
+starting measure
+stopping trace
+mem_malloced: 1077936128
+cache size base: 32
+cache size base: 48
+cache size base: 64
+cache size base: 96
+cache size base: 128
+cache size base: 192
+cache size base: 256
+cache size base: 384
+cache size base: 512
+cache size base: 768
+cache size base: 1024
+cache size base: 1536
+cache size base: 2048
+cache size base: 3072
+cache size base: 4096
+cache size base: 6144
+cache size base: 8192
+cache size base: 12288
+cache size base: 16384
+50	0.188352
+64	0.172221
+77	0.163469
+107	0.149812
+138	0.140830
+201	0.129244
+259	0.122230
+388	0.112217
+509	0.105736
+765	0.097140
+1010	0.091498
+1524	0.083669
+2028	0.078570
+3055	0.072353
+4077	0.068861
+6126	0.065683
+8174	0.065068
+12270	0.065068
+16368	0.065068
+LP infeasible	 exiting!
+---------------------
+
+---------------------
+

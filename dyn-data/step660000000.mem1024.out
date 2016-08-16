@@ -1,0 +1,79 @@
+_____________________
+Using the existing distribution file: zipf-1.150000.dist
+Using the existing distribution file: Using the existing distribution file: zipf-1.150000.dist
+zipf-1.150000.dist
+Using the existing distribution file: zipf-1.150000.dist
+Finished reading in the distribution
+Generating and stroing the rest of zipfian: range: 4000000000
+Finished writing the distribution data
+scale is: 7.01281range is: 4000000000
+total record: 4000000000_max: 4e+09
+Connection.cc(290): BEV_EVENT_ERROR: Connection refused
+_____________________
+_____________________
+---------------------
+STAT pid 16535
+STAT uptime 3
+STAT time 1471074666
+STAT version 1.4.25
+STAT libevent 2.0.21-stable
+STAT pointer_size 64
+STAT rusage_user 0.040000
+STAT rusage_system 0.044000
+STAT curr_connections 10
+STAT total_connections 12
+STAT connection_structures 11
+STAT reserved_fds 20
+STAT cmd_get 0
+STAT cmd_set 0
+STAT cmd_flush 0
+STAT cmd_touch 0
+STAT get_hits 0
+STAT get_misses 0
+STAT delete_misses 0
+STAT delete_hits 0
+STAT incr_misses 0
+STAT incr_hits 0
+STAT decr_misses 0
+STAT decr_hits 0
+STAT cas_misses 0
+STAT cas_hits 0
+STAT cas_badval 0
+STAT touch_hits 0
+STAT touch_misses 0
+STAT auth_cmds 0
+STAT auth_errors 0
+STAT bytes_read 18
+STAT bytes_written 49
+STAT limit_maxbytes 1073741824
+STAT accepting_conns 1
+STAT listen_disabled_num 0
+STAT time_in_listen_disabled_us 0
+STAT threads 4
+STAT conn_yields 0
+STAT hash_power_level 16
+STAT hash_bytes 524288
+STAT hash_is_expanding 0
+STAT slab_reassign_rescues 0
+STAT slab_reassign_evictions_nomem 0
+STAT slab_reassign_inline_reclaim 0
+STAT slab_reassign_busy_items 0
+STAT slab_reassign_running 0
+STAT slabs_moved 0
+STAT slabs_removed 0
+STAT malloc_fails 0
+STAT bytes 0
+STAT curr_items 0
+STAT total_items 0
+STAT expired_unfetched 0
+STAT evicted_unfetched 0
+STAT evictions 0
+STAT reclaimed 0
+STAT crawler_reclaimed 0
+STAT crawler_items_checked 0
+STAT lrutail_reflocked 0
+END
+---------------------
+STAT active_slabs 0
+STAT total_malloced 0
+END
